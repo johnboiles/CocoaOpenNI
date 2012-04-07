@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42192D5D152FB9EB00A05DA5 /* SceneDrawer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42312CEF14C130C600C616F3 /* SceneDrawer.mm */; };
+		42192D5E152FB9EB00A05DA5 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42312CD614C12CCB00C616F3 /* AppDelegate.mm */; };
+		42192D5F152FB9EB00A05DA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42312CCF14C12CCB00C616F3 /* main.m */; };
+		42192D60152FB9EB00A05DA5 /* CocoaOpenNI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42BB47A114C13B610052AC36 /* CocoaOpenNI.mm */; };
+		42192D61152FB9EB00A05DA5 /* DepthView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 427B8DEA14C1578100EDAD05 /* DepthView.mm */; };
+		42192D62152FB9EB00A05DA5 /* Skeleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4299AD5A14E4D979000F148B /* Skeleton.mm */; };
+		42192D63152FB9EB00A05DA5 /* XnVector3DUtils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4299AD5C14E4DC64000F148B /* XnVector3DUtils.cc */; };
+		42192D68152FB9EB00A05DA5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42312CC314C12CCB00C616F3 /* Cocoa.framework */; };
+		42192D69152FB9EB00A05DA5 /* libOpenNI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42192D48152FAFC300A05DA5 /* libOpenNI.dylib */; };
+		42192D6B152FB9EB00A05DA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42312CCC14C12CCB00C616F3 /* InfoPlist.strings */; };
+		42192D6C152FB9EB00A05DA5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 42312CD214C12CCB00C616F3 /* Credits.rtf */; };
+		42192D6D152FB9EB00A05DA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42312CD814C12CCB00C616F3 /* MainMenu.xib */; };
+		42192D6E152FB9EB00A05DA5 /* KinectConfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 42312CED14C12FFB00C616F3 /* KinectConfig.xml */; };
+		42192D7C152FBC1000A05DA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42192D7B152FBC1000A05DA5 /* QuartzCore.framework */; };
+		42192D7E152FBC1600A05DA5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42192D7D152FBC1600A05DA5 /* OpenGL.framework */; };
+		42192D80152FBC1900A05DA5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42192D7F152FBC1900A05DA5 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42192D48152FAFC300A05DA5 /* libOpenNI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenNI.dylib; path = Libraries/libOpenNI.dylib; sourceTree = "<group>"; };
+		42192D72152FB9EB00A05DA5 /* CocoaOpenNI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaOpenNI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42192D7B152FBC1000A05DA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		42192D7D152FBC1600A05DA5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		42192D7F152FBC1900A05DA5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = DEVELOPER_DIR; };
+		42192D87152FBCC500A05DA5 /* CocoaOpenNI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CocoaOpenNI-Info.plist"; sourceTree = "<group>"; };
+		42312CC314C12CCB00C616F3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		42312CC614C12CCB00C616F3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		42312CC714C12CCB00C616F3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		42312CC814C12CCB00C616F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42312CCD14C12CCB00C616F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42312CCF14C12CCB00C616F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42312CD114C12CCB00C616F3 /* CocoaOpenNI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaOpenNI-Prefix.pch"; sourceTree = "<group>"; };
+		42312CD314C12CCB00C616F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		42312CD514C12CCB00C616F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42312CD614C12CCB00C616F3 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		42312CD914C12CCB00C616F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		42312CED14C12FFB00C616F3 /* KinectConfig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KinectConfig.xml; sourceTree = "<group>"; };
+		42312CEF14C130C600C616F3 /* SceneDrawer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SceneDrawer.mm; sourceTree = "<group>"; };
+		42312CF014C130C600C616F3 /* SceneDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDrawer.h; sourceTree = "<group>"; };
+		427B8DE914C1578100EDAD05 /* DepthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepthView.h; sourceTree = "<group>"; };
+		427B8DEA14C1578100EDAD05 /* DepthView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DepthView.mm; sourceTree = "<group>"; };
+		4299AD5914E4D979000F148B /* Skeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skeleton.h; sourceTree = "<group>"; };
+		4299AD5A14E4D979000F148B /* Skeleton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Skeleton.mm; sourceTree = "<group>"; };
+		4299AD5C14E4DC64000F148B /* XnVector3DUtils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XnVector3DUtils.cc; sourceTree = "<group>"; };
+		4299AD5E14E4DC78000F148B /* XnVector3DUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XnVector3DUtils.h; sourceTree = "<group>"; };
+		42BB47A014C13B610052AC36 /* CocoaOpenNI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaOpenNI.h; sourceTree = "<group>"; };
+		42BB47A114C13B610052AC36 /* CocoaOpenNI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CocoaOpenNI.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42192D64152FB9EB00A05DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42192D80152FBC1900A05DA5 /* GLUT.framework in Frameworks */,
+				42192D7E152FBC1600A05DA5 /* OpenGL.framework in Frameworks */,
+				42192D7C152FBC1000A05DA5 /* QuartzCore.framework in Frameworks */,
+				42192D68152FB9EB00A05DA5 /* Cocoa.framework in Frameworks */,
+				42192D69152FB9EB00A05DA5 /* libOpenNI.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42312CB214C12C8000C616F3 = {
+			isa = PBXGroup;
+			children = (
+				4248F0D614F9A9FB00FDB354 /* Libraries */,
+				42312CC914C12CCB00C616F3 /* CocoaOpenNI */,
+				42312CC214C12CCB00C616F3 /* Frameworks */,
+				42312CC014C12CCB00C616F3 /* Products */,
+				42312CEC14C12FFB00C616F3 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		42312CC014C12CCB00C616F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42192D72152FB9EB00A05DA5 /* CocoaOpenNI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42312CC214C12CCB00C616F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42192D7F152FBC1900A05DA5 /* GLUT.framework */,
+				42192D7D152FBC1600A05DA5 /* OpenGL.framework */,
+				42192D7B152FBC1000A05DA5 /* QuartzCore.framework */,
+				42312CC314C12CCB00C616F3 /* Cocoa.framework */,
+				42312CC514C12CCB00C616F3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42312CC514C12CCB00C616F3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42312CC614C12CCB00C616F3 /* AppKit.framework */,
+				42312CC714C12CCB00C616F3 /* CoreData.framework */,
+				42312CC814C12CCB00C616F3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		42312CC914C12CCB00C616F3 /* CocoaOpenNI */ = {
+			isa = PBXGroup;
+			children = (
+				427B8DE914C1578100EDAD05 /* DepthView.h */,
+				427B8DEA14C1578100EDAD05 /* DepthView.mm */,
+				42312CF014C130C600C616F3 /* SceneDrawer.h */,
+				42312CEF14C130C600C616F3 /* SceneDrawer.mm */,
+				42312CD514C12CCB00C616F3 /* AppDelegate.h */,
+				42312CD614C12CCB00C616F3 /* AppDelegate.mm */,
+				42312CD814C12CCB00C616F3 /* MainMenu.xib */,
+				42312CCA14C12CCB00C616F3 /* Supporting Files */,
+				42BB47A014C13B610052AC36 /* CocoaOpenNI.h */,
+				42BB47A114C13B610052AC36 /* CocoaOpenNI.mm */,
+				4299AD5914E4D979000F148B /* Skeleton.h */,
+				4299AD5A14E4D979000F148B /* Skeleton.mm */,
+				4299AD5E14E4DC78000F148B /* XnVector3DUtils.h */,
+				4299AD5C14E4DC64000F148B /* XnVector3DUtils.cc */,
+			);
+			path = CocoaOpenNI;
+			sourceTree = "<group>";
+		};
+		42312CCA14C12CCB00C616F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42192D87152FBCC500A05DA5 /* CocoaOpenNI-Info.plist */,
+				42312CCC14C12CCB00C616F3 /* InfoPlist.strings */,
+				42312CCF14C12CCB00C616F3 /* main.m */,
+				42312CD114C12CCB00C616F3 /* CocoaOpenNI-Prefix.pch */,
+				42312CD214C12CCB00C616F3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42312CEC14C12FFB00C616F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42312CED14C12FFB00C616F3 /* KinectConfig.xml */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4248F0D614F9A9FB00FDB354 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				42192D48152FAFC300A05DA5 /* libOpenNI.dylib */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42192D5B152FB9EB00A05DA5 /* CocoaOpenNI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42192D6F152FB9EB00A05DA5 /* Build configuration list for PBXNativeTarget "CocoaOpenNI" */;
+			buildPhases = (
+				42192D5C152FB9EB00A05DA5 /* Sources */,
+				42192D64152FB9EB00A05DA5 /* Frameworks */,
+				42192D6A152FB9EB00A05DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaOpenNI;
+			productName = CocoaOpenNI;
+			productReference = 42192D72152FB9EB00A05DA5 /* CocoaOpenNI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42312CB414C12C8000C616F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 42312CB714C12C8000C616F3 /* Build configuration list for PBXProject "CocoaOpenNI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+				French,
+				German,
+				Italian,
+				Japanese,
+				pt,
+				Spanish,
+			);
+			mainGroup = 42312CB214C12C8000C616F3;
+			productRefGroup = 42312CC014C12CCB00C616F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42192D5B152FB9EB00A05DA5 /* CocoaOpenNI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42192D6A152FB9EB00A05DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42192D6B152FB9EB00A05DA5 /* InfoPlist.strings in Resources */,
+				42192D6C152FB9EB00A05DA5 /* Credits.rtf in Resources */,
+				42192D6D152FB9EB00A05DA5 /* MainMenu.xib in Resources */,
+				42192D6E152FB9EB00A05DA5 /* KinectConfig.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42192D5C152FB9EB00A05DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42192D5D152FB9EB00A05DA5 /* SceneDrawer.mm in Sources */,
+				42192D5E152FB9EB00A05DA5 /* AppDelegate.mm in Sources */,
+				42192D5F152FB9EB00A05DA5 /* main.m in Sources */,
+				42192D60152FB9EB00A05DA5 /* CocoaOpenNI.mm in Sources */,
+				42192D61152FB9EB00A05DA5 /* DepthView.mm in Sources */,
+				42192D62152FB9EB00A05DA5 /* Skeleton.mm in Sources */,
+				42192D63152FB9EB00A05DA5 /* XnVector3DUtils.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42312CCC14C12CCB00C616F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42312CCD14C12CCB00C616F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42312CD214C12CCB00C616F3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42312CD314C12CCB00C616F3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		42312CD814C12CCB00C616F3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42312CD914C12CCB00C616F3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42192D70152FB9EB00A05DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaOpenNI/CocoaOpenNI-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/OpenNI";
+				INFOPLIST_FILE = "CocoaOpenNI/CocoaOpenNI-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = CocoaOpenNI;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42192D71152FB9EB00A05DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaOpenNI/CocoaOpenNI-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/OpenNI";
+				INFOPLIST_FILE = "CocoaOpenNI/CocoaOpenNI-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = CocoaOpenNI;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42312CB914C12C8000C616F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		42312CBA14C12C8000C616F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42192D6F152FB9EB00A05DA5 /* Build configuration list for PBXNativeTarget "CocoaOpenNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42192D70152FB9EB00A05DA5 /* Debug */,
+				42192D71152FB9EB00A05DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42312CB714C12C8000C616F3 /* Build configuration list for PBXProject "CocoaOpenNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42312CB914C12C8000C616F3 /* Debug */,
+				42312CBA14C12C8000C616F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42312CB414C12C8000C616F3 /* Project object */;
+}
