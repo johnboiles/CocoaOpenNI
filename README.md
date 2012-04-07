@@ -4,6 +4,8 @@ http://github.com/johnboiles/CocoaOpenNI
 
 Sample project for using OpenNI in a Cocoa OSX app.
 
+![Screenshot](https://johnboiles.s3.amazonaws.com/Screenshots/CocoaOpenNI.png)
+
 To Run This Project
 -------------------
 1.   Install forked binaries for PrimeSense/Sensor (This may be different if you have Kinect for Windows hardware)
